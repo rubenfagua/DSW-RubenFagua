@@ -5,6 +5,82 @@ h1{
     background-color:  #F0B429
     d;
 }
-.fondo{
-    background-color: #005883;
+.tabla{
+    font-size: large;
+    padding: 30px;
+    
 }
+
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:#005883
+    ;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:800;
+    font-size:25px;
+    padding:10px;
+    font-family:"franklin gothic book";
+    text-transform:uppercase;
+    letter-spacing:2px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float: right;
+    margin:1;
+    padding:200;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#F0B429;
+   }
+   /* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:250px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
