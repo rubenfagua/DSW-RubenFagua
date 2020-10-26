@@ -7,8 +7,11 @@ h1{
 }
 .tabla{
     font-size: large;
-    padding: 30px;
-    
+    padding: 2px;
+    background-color: #F0B429;
+    color: #fff;
+    font-family:"franklin gothic book";
+
 }
 
 /* menu */
@@ -84,3 +87,112 @@ h1{
    #menu ul li:hover > ul {
     display:block;
    }
+   /*menu2*/
+   /* menu2 */
+
+#menu2 ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu2 */
+   
+   #menu2 ul li {
+    background-color:#005883
+    ;
+   }
+   
+   /* enlaces del menu2 */
+   
+   #menu2 ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:800;
+    font-size:25px;
+    padding:10px;
+    font-family:"franklin gothic book";
+    text-transform:uppercase;
+    letter-spacing:2px;
+   }
+   
+   /* items del menu2 */
+   
+   #menu2 ul li {
+    position:relative;
+    float: center;
+    margin:1;
+    padding:200;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu2 ul li:hover {
+    background:#F0B429;
+   }
+   /* menu desplegable */
+
+#menu2 ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu2 ul ul li {
+    float:none;
+    width:250px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu2 ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu2 ul li:hover > ul {
+    display:block;
+   }
+   .desc{
+   font-size: large;
+   padding: 2px;
+   background-color: #F0B429;
+   color: #fff;
+   font-family:"franklin gothic book";
+   }
+   .biblio_t{
+   font-size: large;
+   padding: 2px;
+   background-color: #F0B429;
+   color: #fff;
+   font-family:"franklin gothic book";
+   }
+   .biblio{
+    font-size:10px;
+    padding: 2px;
+    background-color: #F0B429;
+    color: #fff;
+    font-family:"franklin gothic book";
+    }
+    h2{
+        font-size:25px;
+        padding: 2px;
+        background-color: #F0B429;
+        color: #fff;
+        font-family:"franklin gothic book";
+    }
+    li{
+        font-size:20px;
+        padding: 2px;
+        background-color:#005883;
+        color: #fff;
+        font-family:"franklin gothic book";
+    }
