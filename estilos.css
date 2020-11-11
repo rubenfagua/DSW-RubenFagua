@@ -211,9 +211,15 @@ h1{
     input{
         color: rgb(180, 180, 180);
         border: none
+
     }
     button{
         width: 75px;
         border-radius: 3px;
+
+    }
+    iframe{
+        width: 88%;
+        height: 90vh;
 
     }
