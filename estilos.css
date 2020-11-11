@@ -196,3 +196,24 @@ h1{
         color: #fff;
         font-family:"franklin gothic book";
     }
+    
+    form{
+        width: 265px;
+        margin: 0 auto;
+
+    }
+    fieldset{
+        background: #fff;
+        border: 2px solid #333333;
+        border-radius: 4px;
+        padding: 0 0 0 5px;
+    }
+    input{
+        color: rgb(180, 180, 180);
+        border: none
+    }
+    button{
+        width: 75px;
+        border-radius: 3px;
+
+    }
